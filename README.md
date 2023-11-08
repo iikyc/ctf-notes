@@ -105,6 +105,17 @@ ntlmrelayx.py -tf <TARGET_LIST_FILE> -smb2support
 
 # Privilege escalation
 
+## Linux privesc
+-> Check for hidden files
+-> sudo -l
+-> cat /etc/crontab
+-> getcap -r / 2>/dev/null
+-> find / -perm -04000 2>/dev/null
+-> Use LINPEAS
+-> Use pspy
+-> Check /opt
+-> Check config files for credentials
+
 ## Windows privesc
 
 ### 1 (From simple reverse shell)
